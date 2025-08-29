@@ -92,7 +92,7 @@ Climate: Annual temperature and precipitation
 
 Topography: DEM-derived slope, aspect, curvature
 
-Human: Population, accessibility (if applicable)
+Human: Population
 
 Inventory: Forest resource survey polygons (dominant species, origin types)
 

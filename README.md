@@ -67,7 +67,7 @@ AGB-XGBoost-model/
 ### 1. Python Environment
 
 - Python Version: **3.12 (64-bit)**
-- Recommended: Use `venv` or `conda` for environment isolation
+- Recommended: Use `conda` for environment isolation
 
 ### 2. Install Dependencies
 

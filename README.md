@@ -90,11 +90,11 @@ Remote Sensing: Landsat, MODIS (NDVI, LAI, FPAR, etc.)
 
 Climate: Annual temperature and precipitation
 
-Topography: DEM-derived slope, aspect, curvature
+Topography: DEM-derived slope, aspect
 
-Human: Population
+Human: footprints of human activities
 
-Inventory: Forest resource survey polygons (dominant species, origin types)
+Inventory: Forest resource survey polygons (dominant species, Forest stock)
 
 Note: The forest resource inventory data were provided by the Zhangye Administration and Protection Center of Qilian Mountain National Park.
 These data are classified and restricted by law and policy, thus cannot be publicly shared.
@@ -105,7 +105,7 @@ To enhance reproducibility, we provide a sample dataset (data/Sample_data.xlsx) 
 
 - Annual AGB maps (2009–2023)
 
-- Evaluation metrics: R², RMSE, MAE
+- Evaluation metrics: R², AIC, MAE，BIC
 
 - SHAP importance & interaction plots
 
@@ -120,8 +120,7 @@ Due to GitHub's file size limit (100 MB per file), the full-resolution datasets 
 
 Instead, the complete GeoTIFF dataset has been deposited on the open-access platform Zenodo for public download and citation:
 
-🔗 Zenodo DOI:
-10.5281/zenodo.16996502
+🔗 Zenodo DOI: 10.5281/zenodo.16996502
 ---
 
 ## 📁 Dataset Contents

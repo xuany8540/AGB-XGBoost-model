@@ -1,0 +1,14 @@
+===== XGBoost Model Evaluation =====
+Training Time: 0.19 seconds
+
+--- Training Set ---
+R²: 1.0000
+RMSE: 0.0005
+AIC: -1203.79
+BIC: -1136.40
+
+--- Testing Set ---
+R²: 0.0228
+RMSE: 21.9986
+AIC: 117.82
+BIC: 126.29

@@ -1,2 +1,49 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# VSCode/PyCharm等IDE相关
+.idea/
+.vscode/
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter/IPython临时文件
+.ipynb_checkpoints/
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# 模型输出
+*.model
+*.sav
+*.pkl
+
+# 环境配置
+.env
+.env.*
+
+# Python虚拟环境
+venv/
+ENV/
+env/
+.venv/
+
+# Rasterio 缓存
+~$*.tif.aux.xml
+
+# Excel自动备份
+~$*.xlsx
+
+# 结果图/中间图
+*.png
+*.jpg
+*.jpeg
+*.pdf

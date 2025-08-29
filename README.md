@@ -76,9 +76,11 @@ If `requirements.txt` is provided, install packages with:
 ```bash
 pip install -r requirements.txt
 ```
-If requirements.txt is missing, auto-generate one using:
+If `requirements.txt` is missing, auto-generate one using:
+```bash
 pip install pipreqs
 pipreqs ./AGB-XGBoost-model --encoding=utf-8 --force
+```
 ---
 
 ## 🗃️ Data Description
@@ -126,27 +128,27 @@ Instead, the complete GeoTIFF dataset has been deposited on the open-access plat
 
 A total of four compressed archives are provided:
 
--biomass.zip: 15 annual GeoTIFF files (2009.tif to 2023.tif) of AGB predictions
+- biomass.zip: 15 annual GeoTIFF files (2009.tif to 2023.tif) of AGB predictions
 
--Pre.zip: Annual precipitation maps (unit: mm)
+- Pre.zip: Annual precipitation maps (unit: mm)
 
--Tem.zip: Annual temperature maps (unit: °C)
+- Tem.zip: Annual temperature maps (unit: °C)
 
--Lag_effect_data.zip: Climate–AGB data for lag-effect analysis
+- Lag_effect_data.zip: Climate–AGB data for lag-effect analysis
 
 General Properties:
 
-  -Spatial resolution: 30 meters
+  - Spatial resolution: 30 meters
 
-  -Coordinate system: WGS 84 / UTM Zone 49N (EPSG:32649)
+  - Coordinate system: WGS 84 / UTM Zone 49N (EPSG:32649)
 
 Units:
 
-  -AGB: Mg/ha (megagrams per hectare)
+  - AGB: Mg/ha (megagrams per hectare)
 
-  -Temperature: degrees Celsius (°C)
+  - Temperature: degrees Celsius (°C)
 
-  -Precipitation: millimeters (mm)
+  - Precipitation: millimeters (mm)
   
  ---
 ## 📥 Download & Usage Instructions
@@ -156,7 +158,7 @@ Download and extract all .zip files to your local directory
 Update the corresponding relative paths in the scripts to match your local file locations
 
 To test the code logic, you may use the provided sample file data/Sample_data.xlsx
-→ Run Lasso.py and VIF.py to replicate the variable selection workflow
+→ Run `Lasso.py` and `VIF.py` to replicate the variable selection workflow
 
 ---
  

@@ -29,7 +29,7 @@ X = df.drop(target_column, axis=1)
 y = df[target_column]
 
 # 数据划分
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # ===== 2. 建立模型 =====
 model = XGBRegressor(
@@ -42,7 +42,7 @@ model = XGBRegressor(
 )
 
 # 交叉验证
-cv_scores = cross_val_score(model, X_train, y_train, cv=13, scoring='r2')
+cv_scores = cross_val_score(model, X_train, y_train, cv=10, scoring='r2')
 
 # 模型训练与预测
 start_time = time.time()

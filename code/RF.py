@@ -22,7 +22,7 @@ X = df.drop(target_column, axis=1)
 y = df[target_column]
 
 # 数据集按照8:2进行分割
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # 创建随机森林模型
 model = RandomForestRegressor(n_estimators=500, random_state=80)
